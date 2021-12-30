@@ -1,0 +1,144 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(54, 64, 104);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 50px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #8781bd;
+    color: white;
+  }
+
+.legends{
+    text-align: center;
+    color: white;
+    padding: 25px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+body{
+    background-color: rgb(5, 24, 46);
+}
+
+.tableofcontents{
+    background-color: rgb(26, 34, 71);
+    width: 350px;
+    padding: 25px;
+    margin: 10px;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+    align-content: center;
+    position: relative;
+    float: left;
+    border-radius: 25px;
+    font-size: 20px;
+}
+
+.tableofcontents > ul > li > a:hover{
+  color: white;
+}
+
+.tableofcontents > ul > li > a:visited{
+  color: white;
+}
+
+.tableofcontents > ul > li > a:active{
+  color: white;
+}
+
+p > a:hover{
+  color: white;
+}
+
+p > a:visited{
+  color: white;
+}
+
+p > a:active{
+  color: white;
+}
+
+
+
+
+h3{
+  color: white;
+  font-family: 'Trebuchet MS', Arial, sans-serif;
+  font-size: 24px;
+  text-align: center;
+  
+}
+
+p{
+  text-align: left;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;  
+  font-size: 16px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.basicrulestext{
+  color: white;
+  font-family: 'Segoe UI', sans-serif;  
+  font-size: 16px;
+  
+}
+
+.playerrulestext{
+  color: white;
+  font-family: 'Segoe UI', sans-serif;  
+  font-size: 16px;
+  
+}
+
+.moctext{
+  color: white;
+  font-family: 'Segoe UI', sans-serif;    
+  font-size: 16px;
+  
+}
+
+.citytext{
+  color: white;
+  font-family: 'Segoe UI', sans-serif;   
+  font-size: 16px;
+  
+}
+
+.misttext{
+  color: white;
+  font-family: 'Segoe UI', sans-serif;   
+  font-size: 16px;
+  
+}
+
+.downloadtext{
+  color: white;
+  font-family: 'Segoe UI', sans-serif;    
+  font-size: 16px;
+  
+}
+
+iframe {
+    margin-left: 50vw;
+    transform: translate(-50%);
+  }
+
